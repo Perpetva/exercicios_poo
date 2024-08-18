@@ -15,9 +15,6 @@ class Quarto:
         self.disponivel =  True
 
     def exibir_informacoes(self):
-        disponivel = 'Não'
-        if self.disponivel:
-            disponivel = 'Sim'
         return f'Número: {self.numero}\nTipo: {self.tipo}\nPreço: ${self.preco}\nDisponivel!'
         
 class Hotel:
